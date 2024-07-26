@@ -10,7 +10,7 @@ from keras.models import Sequential
 from keras.utils import to_categorical
 from keras import callbacks
 from sklearn.metrics import precision_score, recall_score, confusion_matrix, classification_report, accuracy_score, f1_score
-data = pd.read_csv("C:/Users/Shrikar Purohit/OneDrive/Desktop/AIML 5 SEM/ML LAB/heart_failure_clinical_records_dataset.csv")
+data = pd.read_csv("C:/Users/PC/Downloads/heart_failure_clinical_records_dataset.csv")
 data.head(10)
 data.tail(10)
 data.sample(10)
